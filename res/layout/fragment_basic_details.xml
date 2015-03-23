@@ -13,39 +13,42 @@
             android:id="@+id/btnShowFields"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
-
+            android:text="@string/show_additional_fields" />
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" >
+            android:inputType="textPersonName"
+            android:hint="Name" >
 
             <requestFocus />
         </EditText>
 
         <EditText
-            android:id="@+id/etNumber"
+            android:id="@+id/etPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="phone"
-            android:enabled="false" />
+            android:enabled="true"
+            android:hint="0233 123 123" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:hint="e-mail" />
 
         <EditText
             android:id="@+id/etAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPostalAddress" />
+            android:inputType="textPostalAddress"
+            android:hint="Address" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,13 +58,13 @@
                 android:id="@+id/btnSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Save" />
 
             <Button
                 android:id="@+id/btnCancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Cancel" />
 
         </LinearLayout>
 

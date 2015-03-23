@@ -16,13 +16,13 @@
         android:orientation="vertical" >
 
         <FrameLayout
-            android:id="@+id/frame1"
+            android:id="@+id/containerTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/frame2"
+            android:id="@+id/containerBottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
         </FrameLayout>
